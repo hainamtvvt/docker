@@ -1,13 +1,13 @@
-## CHIA NHỎ ỨNG DỤNG THÀNH CÁC SERVICE DOCKER
-* khi phân phối các ứng dụng hoàn thành, từng phần của ứng dụng đó ở dạng sản phẩm gọi nó là các service (dịch vụ).ví dụ một trang web có các thành phần
-** Một container chạy HTTP Apache là webserver
-** Một container chạy PHP để triển khai các file code
-** Một container chạy MySQL làm cơ sở dữ liệu cho trang web
+##CHIA NHỎ ỨNG DỤNG THÀNH CÁC SERVICE DOCKER
+*khi phân phối các ứng dụng hoàn thành, từng phần của ứng dụng đó ở dạng sản phẩm gọi nó là các service (dịch vụ).ví dụ một trang web có các thành phần
+**Một container chạy HTTP Apache là webserver
+**Một container chạy PHP để triển khai các file code
+**Một container chạy MySQL làm cơ sở dữ liệu cho trang web
 Những thành phần này khi triển khai ứng dụng chúng đều được gọi là các service. Vậy service thực chất là các container chạy các ứng dụng.
-### Docker Compose với file docker-compose.yml
-** Tạo và chạy các thành phần được định nghĩa trong docker-compose.yml
+###Docker Compose với file docker-compose.yml
+**Tạo và chạy các thành phần được định nghĩa trong docker-compose.yml
     docker-compose up
-** Dừng và xoas:
+**Dừng và xoas:
     docker-compose down
-** Theo dõi Logs từ các dịch vụ
+**Theo dõi Logs từ các dịch vụ
     
