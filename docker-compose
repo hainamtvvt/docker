@@ -1,5 +1,5 @@
 ##CHIA NHỎ ỨNG DỤNG THÀNH CÁC SERVICE DOCKER
-*khi phân phối các ứng dụng hoàn thành, từng phần của ứng dụng đó ở dạng sản phẩm gọi nó là các service (dịch vụ).ví dụ một trang web có các thành phần
+* khi phân phối các ứng dụng hoàn thành, từng phần của ứng dụng đó ở dạng sản phẩm gọi nó là các service (dịch vụ).ví dụ một trang web có các thành phần
 **Một container chạy HTTP Apache là webserver
 **Một container chạy PHP để triển khai các file code
 **Một container chạy MySQL làm cơ sở dữ liệu cho trang web
